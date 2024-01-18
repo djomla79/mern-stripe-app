@@ -1,0 +1,48 @@
+.container {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    background-color: white;
+    min-width: 300px;
+    min-height: 120px;
+    border-radius: 6px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-modal {
+    min-width: 130px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.text-content {
+    padding-bottom: 10px;
+}
+
+.actions {
+    min-width: 130px;
+    align-self: center;
+}

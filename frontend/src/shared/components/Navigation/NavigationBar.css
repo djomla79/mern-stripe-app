@@ -1,0 +1,39 @@
+.navigation-bar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  background-color: antiquewhite;
+}
+
+.logo {
+  height: 100%;
+  width: 70px;
+  padding: 25px;
+}
+
+.nav-links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 10px 10px;
+}
+
+.nav-links a.active {
+  background-color: azure;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: azure;
+  border-radius: 6px;
+}
+
+.nav-link {
+  padding: 10px 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
